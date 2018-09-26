@@ -7,9 +7,9 @@ class MagicIndex {
         List input = [-1, 0, 1, 3, 5, 6, 7]
         input = [0, 1, 3, 5, 6, 7]
         input = [-1, 0, 1, 2, 3, 5]
-        input = [-1, 0, 1, 2, 3, 6]
+        //input = [-1, 0, 1, 2, 3, 6]
         println("magicIndex=${magicIndex.findMagicIndex(input)}")
-        println("magicIndex=${magicIndex.findMagicIndexBinarySearch(input, 0, input.size() - 1)}")
+        println("magicIndex; binary=${magicIndex.findMagicIndexBinarySearch(input, 0, input.size() - 1)}")
     }
 
     int findMagicIndexBinarySearch(List input, int start, int end) {
