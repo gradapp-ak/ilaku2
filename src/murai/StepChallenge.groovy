@@ -1,0 +1,4 @@
+package murai
+
+class StepChallenge {
+}
