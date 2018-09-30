@@ -1,4 +1,4 @@
-package murai
+package murai.dpAndrecursion
 
 class MagicIndex {
     static MagicIndex magicIndex = new MagicIndex()
