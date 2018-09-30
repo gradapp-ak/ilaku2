@@ -4,8 +4,9 @@ class PermutationWithoutDups {
 
     static void main(String[] args) {
         def withoutDups = new PermutationWithoutDups()
-        def permutation = withoutDups.generatePermutation("abc".toCharArray(), 0)
+        def permutation = withoutDups.generatePermutation("abcd".toCharArray(), 0)
         println("results=${permutation}")
+        println("results size=${permutation.size()}")
     }
 
     List<String> generatePermutation(char[] input, int i) {
