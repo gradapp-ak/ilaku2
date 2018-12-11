@@ -46,6 +46,7 @@ class PrimMinimumSpanningTree {
     }
 
     private void populateEdges(List<List<E>> adjList, int vertex, Set<Integer> mst, PriorityQueue<E> priorityQueue) {
+
         println("AdjList for vertex, $vertex is =${adjList[vertex]}")
         for (int i = 0; i < adjList[vertex].size(); i++) {
             def edge = adjList[vertex][i]
