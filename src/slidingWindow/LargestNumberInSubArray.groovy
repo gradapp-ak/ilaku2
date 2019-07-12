@@ -1,7 +1,7 @@
 package slidingWindow
 
 //https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/
-class LargestContiguousSubArray {
+class LargestNumberInSubArray {
 
     static void main(String[] args) {
         findMaxBruteForce([1, 2, 3, 1, 4, 5, 2, 3, 6], 3)
