@@ -1,6 +1,9 @@
 //missed
 1.7
+graph problems
 
+//Stop at
+4.5
 
 //DataStructures
 Stack
@@ -11,9 +14,14 @@ Tree
     n-ary tree (can have more than 2 child)
     Binary tree
     Binary search tree
-    Balanced tree (Have to check)
+    Balanced tree (Have to check) (AVL,Redblack)
     Complete Binary tree (uniformly filled left to right)
     + Full binary tree (All the nodes have 0 or 2 children) = Perfect binary trees
+    Tries (Prefix tree)
+
+Graphs
+    Bidirectional Search
+    Topological Sort
 
 //Algorithm techniques
   2 pointers
@@ -23,7 +31,7 @@ Tree
     fast and slow pointers
 
   Scan twice
-    Scan the array/linkedlist twice. First time to infer meta data like
+    Scan the array/linkedList twice. First time to infer meta data like
      length of an linkedlist and use that to solve the problem
 
 //
