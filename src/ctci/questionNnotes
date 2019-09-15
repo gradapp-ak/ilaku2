@@ -21,8 +21,13 @@ Tree
     Tries (Prefix tree)
 
 Graphs
+    DFS
+    BFS
     Bidirectional Search
     Topological Sort
+    Dijikstra's shortest path algorithm
+    Union Find
+    Prim's algorithm - min/max spanning tree
 
 //Algorithm techniques
   2 pointers
