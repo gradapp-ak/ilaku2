@@ -40,6 +40,12 @@ Graphs
     Scan the array/linkedList twice. First time to infer meta data like
      length of an linkedlist and use that to solve the problem
 
+  Sliding windows
+  String searches (Longest common substring)
 
-//
+
+//problematic
+Modified binary search: like rotate array
+bit manipulation
+String matching (Longest palindrome etc)
 
