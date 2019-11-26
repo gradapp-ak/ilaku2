@@ -4,9 +4,11 @@ class QuickSort {
     def static quickSort = new QuickSort()
 
     static void main(String[] args) {
-        def list = [4, 11, 13, 0, 12, 8, 0]
+        //def list = [4, 11, 13, 0, 12, 8, 0]
+        //def list = [-1,5,3,4,0]
         //def list = [4]
         //def list = [4, 2]
+        def list = [-1,5,3]
         quickSort.putinPlace(list, 0, list.size()-1)
         println("Output=${list}")
     }

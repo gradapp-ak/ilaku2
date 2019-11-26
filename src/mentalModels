@@ -2,9 +2,18 @@ sliding window
     dynamic
     fixed
     jump ahead
+    constraint based
 
 2 pointers in an array
 Array/String iterate from the end instead of beginning
+String matching algorithm ->
+    palindrome checks. Start at each string and expand out either side and keep checking for palindrome
+    Another good technique is to start with each character as 1 length palindrome. Next base case is to
+    add all 2 letter palindromes in the string.
+    After that use these base cases as foundation and expand on either side. check if it's a
+    palindrome and store it in an array. Then use this as a base and check for even bigger length
+    so on and so forth.
+    This algorithm can be used to match longest string match between 2 strings
 
 //DataStructures
 Stack
@@ -45,7 +54,8 @@ Graphs
 
 
 //problematic
-Modified binary search: like rotate array
+Modified binary search: like rotated array and few more
 bit manipulation
 String matching (Longest palindrome etc)
+LinkedList Sort
 
