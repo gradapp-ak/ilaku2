@@ -29,9 +29,14 @@ Tree
     + Full binary tree (All the nodes have 0 or 2 children) = Perfect binary trees
     Tries (Prefix tree)
 
+    Binary search tree traversal
+    DFS
+        recursive, recursive with 2 trees simultaneously, iterative DFS especially inorder using a stack
+    BFS
+
 Graphs
     DFS
-    BFS
+     BFS
     Bidirectional Search
     Topological Sort
     Dijikstra's shortest path algorithm
