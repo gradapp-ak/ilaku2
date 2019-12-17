@@ -63,4 +63,9 @@ Modified binary search: like rotated array and few more
 bit manipulation
 String matching (Longest palindrome etc)
 LinkedList Sort
+Construct binary tree from it's inorder and preorder traversals.
+3Sum
+ Sort first and do brute force
+union find -> number of islands
+wiggle sort
 
