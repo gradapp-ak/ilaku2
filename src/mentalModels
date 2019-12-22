@@ -53,6 +53,7 @@ Graphs
   Scan twice
     Scan the array/linkedList twice. First time to infer meta data like
      length of an linkedlist and use that to solve the problem
+     LinkedList delete problems can be tracked using fakeHead and/or tail
 
   Sliding windows
   String searches (Longest common substring)
@@ -68,4 +69,7 @@ Construct binary tree from it's inorder and preorder traversals.
  Sort first and do brute force
 union find -> number of islands
 wiggle sort
+ Master theorem -> time complexity of a recursive algorithm
+ 2D Arrays have been a problem, especially rotation
+ Pow of operator in logrithmic time-> but why
 
