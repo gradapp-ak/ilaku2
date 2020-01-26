@@ -1,19 +1,39 @@
-sliding window
+Arrays:
+=========
+
+Sliding window
     dynamic
+        The window moves forward until the condition is not met. once the condition is met, the tail
+        window pointer shrinks the window until the condition is not met again
     fixed
+        The window size is fixed and just moved one element at a time to find the condition met
     jump ahead
     constraint based
-Array pattern:
-    Use the array as storage. For example, when an array is given with the numbers within
+
+
+Kadane's algorithm:
+    Start a sequence, at each position an element joins the current sequence or starts it's own sequence.
+    Typically the ask is to find the max subarray. In a twist to this pattern it may be worthwhile
+    to keep both running max and running min and find solutions from them
+
+Array Storage pattern:
+    Use the array itself as storage. For example, when an array is given with the numbers within
     <=0<a[i]<=n, where n=a.length. then if count is needed the elements at an index can be added
     with n+1. element=n+1+element, So this way element can be obtained by element%(n+1) and number
     of elements at index can be obtained by elements/n+1
-DP:
-
-
+Rotated Array:
+    Divide and conquer. Find the pivot first and then apply the needful. Like finding the minimum
+    or finding an element
 
 2 pointers in an array
+    The array could be sorted or not given the problem.
+    Start at start and end. Depending on if that setup is over or under the target, one side of the
+    array is shrunk.
+
+DP:
+
 Array/String iterate from the end instead of beginning
+
 String matching algorithm ->
     palindrome checks. Start at each string and expand out either side and keep checking for palindrome
     Another good technique is to start with each character as 1 length palindrome. Next base case is to
