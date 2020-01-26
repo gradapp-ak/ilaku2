@@ -3,6 +3,14 @@ sliding window
     fixed
     jump ahead
     constraint based
+Array pattern:
+    Use the array as storage. For example, when an array is given with the numbers within
+    <=0<a[i]<=n, where n=a.length. then if count is needed the elements at an index can be added
+    with n+1. element=n+1+element, So this way element can be obtained by element%(n+1) and number
+    of elements at index can be obtained by elements/n+1
+DP:
+
+
 
 2 pointers in an array
 Array/String iterate from the end instead of beginning
